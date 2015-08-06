@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                style="@style/BigTextStyle"
+                android:id="@+id/title_text"
+                android:hint="测试标题"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"/>
+        <TextView
+                android:id="@+id/date_text"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:layout_width="0dp"
+                android:hint="测试日期"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:id="@+id/author_text"
+                android:hint="测试作者"/>
+
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/theme_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="测试主题"/>
+
+
+</LinearLayout>
