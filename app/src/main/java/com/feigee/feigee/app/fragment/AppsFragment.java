@@ -54,6 +54,7 @@ public class AppsFragment extends Fragment {
                 startActivityForResult(intent, Constant.INTENT_REQUEST);
             }
         });
+
         return view;
     }
 
